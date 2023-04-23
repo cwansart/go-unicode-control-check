@@ -2,8 +2,6 @@
 
 This is a test project to demonstrate how to check for control characters in Unicode strings. This can be handy to check input data from an untrusted source.
 
-Yes, I can provide documentation for the Go package "go-unicode-control-check".
-
 ## Introduction
 
 The "go-unicode-control-check" package is a tool that allows Go developers to detect control characters within Unicode strings. Control characters are characters that do not represent a printable symbol, but instead serve to control the display or processing of text. This package can be useful for preventing security vulnerabilities, as control characters can be used for malicious purposes such as injection attacks.
