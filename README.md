@@ -51,4 +51,4 @@ Pull requests are also welcome! To contribute code changes, please fork the repo
 
 ## License
 
-The "go-unicode-control-check" package is released under the MIT License. See the LICENSE file in the package's GitHub repository for more information.
+The "go-unicode-control-check" package is released under the Apache-2.0 License. See the LICENSE file in the package's GitHub repository for more information.
