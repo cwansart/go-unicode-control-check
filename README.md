@@ -30,12 +30,12 @@ package main
 import (
 	"fmt"
 
-	"github.com/cwansart/go-unicode-control-check"
+	check "github.com/cwansart/go-unicode-control-check"
 )
 
 func main() {
-	hasControl := go_unicode_control_check.HasControlCharacter("Hello, world!")
-	if hasControl {
+	containsControlChars := check.ContainsControlRune("Hello, world!")
+	if containsControlChars {
 		fmt.Println("String contains control characters.")
 	} else {
 		fmt.Println("String does not contain control characters.")
